@@ -83,13 +83,13 @@ Shoot-To-Thrill/
 └── assets/
     ├── models/
     ├── textures/
-    ├── sounds/           # repulsor.ogg, explosion.ogg; BGM in project root
+    ├── sounds/           # repulsor.ogg, explosion.ogg, Shoot_To_Thrill.mp3 (BGM)
     └── fonts/
 ```
 
 ## Optional assets
 
-- **Sounds**: Place `repulsor.ogg` and `explosion.ogg` in `assets/sounds/` for repulsor and explosion SFX. BGM can be placed in project root (e.g. `Christmas_Box_Pops.mp3`) or in `assets/sounds/` and referenced in `config` / `src/game/audio.py`.
+- **Sounds**: Place `repulsor.ogg` and `explosion.ogg` in `assets/sounds/` for repulsor and explosion SFX. For background music (**Shoot to Thrill** by AC/DC), add `Shoot_To_Thrill.mp3` to `assets/sounds/` or the project root (the game looks in both).
 
 ## Performance (RTX 3070)
 
@@ -98,4 +98,4 @@ Shoot-To-Thrill/
 
 ## License
 
-Use and modify as you like. Original Christmas Box game credits: ECE-GY 6183 DSP Lab (Vanshika Sachdev & Karthik Sriram). This Iron Man variant extends that project with CV, 3D, and AI voice.
+Use and modify as you like.

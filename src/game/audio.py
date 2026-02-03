@@ -18,7 +18,7 @@ _sounds = {}
 _sound_files = {
     "repulsor": "repulsor.ogg",
     "explosion": "explosion.ogg",
-    "bgm": "Christmas_Box_Pops.mp3",
+    "bgm": "Shoot_To_Thrill.mp3",  # AC/DC - Shoot to Thrill
 }
 
 
