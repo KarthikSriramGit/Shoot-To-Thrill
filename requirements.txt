@@ -1,0 +1,29 @@
+# Iron Man Arc Reactor Game - Dependencies
+# Python 3.10+ recommended
+
+# Computer Vision
+ultralytics>=8.3.0
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# 3D Game Engine
+ursina>=7.0.0
+
+# AI / Jarvis
+openai>=1.0.0
+edge-tts>=6.1.0
+sounddevice>=0.4.6
+pydub>=0.25.0
+SpeechRecognition>=3.10.0
+
+# PyTorch (install separately with CUDA for RTX 3070):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Audio (game SFX / BGM)
+pygame>=2.5.0
+
+# Utilities
+Pillow>=10.0.0
